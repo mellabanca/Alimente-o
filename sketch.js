@@ -139,7 +139,7 @@ ficaquieto2.mouseClicked(desmutarsom)
 function draw() 
 {
   background(51);
-  image(salinhadajanta, canW/2, canH/2, canW, canH);
+  image(salinhadajanta, canW/2, canH/2, displayWidth+80, displayHeight);
   Engine.update(engine);
    terra.artista();
    acorda.show();
